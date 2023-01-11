@@ -16,7 +16,7 @@ You can find a writeup on this webapp's architecture [here](https://medium.com/@
         - Create a new Notebook in Colab and in the cell execute the below command.  
         
         ```
-         ! git clone https://github.com/experience-ml/cartoonize.git
+         ! git clone https://github.com/CDHZAYN/cartoonize_express.git
         ```
         **Note:** Don't forget to add `!` at the beginning of the command
         
