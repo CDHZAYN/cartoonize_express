@@ -61,7 +61,7 @@ You can find a writeup on this webapp's architecture [here](https://medium.com/@
 5. Launch the express app on ngrok.
 
   ```
-   !python app.py
+   !npm run dev
   ```
 
 6. Connect to colab with ngrok in RESTful requests. Image should be transferred according to "Content-Type=form-data" and named "image". express will return with a transformed JPG picture in Base64.
