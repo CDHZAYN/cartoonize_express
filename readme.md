@@ -39,11 +39,11 @@ You can find a writeup on this webapp's architecture [here](https://medium.com/@
   ```
    %cd cartoonize_express
   ```
-3. Run the below commands in the notebook cell to install the requirements. 
+3. Run the below commands in the notebook cell to install the requirements (CAUTION: "pip install" may firstly uninstall some of existing packages, please check it previously).
 
   ```
    !npm install
-   !pip install -r requirements.txt
+   !pip install -U -r requirements.txt
   ```
 
 4. Config your pyngrok to solve NAT Traversal(ngrok account registration in advance needed).
