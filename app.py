@@ -31,6 +31,7 @@ def convert_image(img):
     """
 
 #     pil_image = Image.open(io.BytesIO(img_bytes))
+    pil_image = Image.fromarray(img.astype('uint8')).convert('RGB')
     if pil_image.mode=="RGBA":
         image = Image.new("RGB", pil_image.size, (255,255,255))
         image.paste(pil_image, mask=pil_image.split()[3])
@@ -48,7 +49,7 @@ def cartoonize(img_name):
         image = convert_image(image)
         cartoon_image = wb_cartoonizer.infer(image)
         cartoonized_img_name = os.path.join('./static/cartoonized_images/', img_name + ".jpg")
-        cv2.imwrite(cartoonized_img_name, cv2.cvtColor(cartoon_image, cv2.COLOR_RGB2BGR))
+        cv2.imwrite(cartoonized_img_name, cartoon_image)
         print("done", file=sys.stdout)
         return
     except Exception:
