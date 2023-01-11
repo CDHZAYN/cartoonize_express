@@ -70,7 +70,7 @@ You can find a writeup on this webapp's architecture [here](https://medium.com/@
   POST http://xxxx-xx-xxx-xxx-xxx.ngrok.io/
   ```
 
-#### Note : Sample [Google Colab Notebook](https://colab.research.google.com/drive/1oDhMEVMcsRbe7bt-2A7cDsx44KQpQwuB?usp=sharing) for reference
+#### Note : Sample [Google Colab Notebook](https://colab.research.google.com/drive/13hxCLvcZZ09KZEctA9l79TcvLTwL1nrG?usp=sharing) for reference
 
 ---
 
